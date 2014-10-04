@@ -6,16 +6,16 @@
 
 [shortener]
 ; COMMENT these and UNCOMMENT the second set to use Google's urlshortener
-file = lib/MockShortener.php
-class = \Cliqr\MockShortener
-;file = lib/GoogleShortener.php
-;class = \Cliqr\GoogleShortener
+; file = lib/MockShortener.php
+; class = \Cliqr\MockShortener
+file = lib/GoogleShortener.php
+class = \Cliqr\GoogleShortener
 
 [google]
 api_url = https://www.googleapis.com/urlshortener/v1/url
 ; INSERT your google api key here, see:
 ;   https://developers.google.com/url-shortener/v1/getting_started#APIKey
-api_key = <MY-GOOGLE-KEY>
+api_key = AIzaSyCGsAZSdhD6TPlRnh2IywqMlRMhg9UeK5Q
 
 [pusher]
 key = <MY-PUSHER-KEY>
